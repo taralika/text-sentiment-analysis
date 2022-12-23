@@ -1,5 +1,6 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 Flask
 numpy
 scipy
 transformers
-https://download.pytorch.org/whl/cpu/torch-1.13.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
+torch==1.13.1+cpu
