@@ -2,4 +2,4 @@ Flask
 numpy
 scipy
 transformers
-torch
+torch==1.13.1+cpu
