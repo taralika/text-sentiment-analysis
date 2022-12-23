@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Text Sentiment Analysis</title>
+  </head>
+  <body>
+    <h1>Text Sentiment Analysis</h1>
+    <form action="/analyze" method="post">
+      <label for="text">Enter text to analyze:</label><br>
+      <textarea name="text" rows="10" cols="50"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+    {% if result %}
+      <h2>Result: {{ result }}</h2>
+    {% endif %}
+  </body>
+</html>
